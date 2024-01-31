@@ -1,7 +1,29 @@
 <div class="content">
-  <img src="../../../assets/avatar.jpeg" />
+  <img src="../../../assets/jpg/avatar.jpeg" class="avatar" />
   <div class="welcome-text">
-    <h1>Hello I'm Michał Jaskulski</h1>
-    <p>{{ text }}</p>
+    <h1>Hello I'm <span class="name">Michał Jaskulski</span></h1>
+    <p>
+      <span>{{ currentText }}</span
+      ><span class="cursor">|</span>
+    </p>
+    <div class="contact">
+      <ul>
+        <li>
+          <a href="github.com"
+            ><img src="../../../assets/svg/github.svg" width="40"
+          /></a>
+        </li>
+        <li>
+          <a href="linkedin.com"
+            ><img src="../../../assets/svg/linkedin.svg" width="40"
+          /></a>
+        </li>
+        <li>
+          <a href="gmail.com"
+            ><img src="../../../assets/svg/mail.svg" width="40"
+          /></a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
