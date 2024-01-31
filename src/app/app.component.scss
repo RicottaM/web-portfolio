@@ -1,0 +1,29 @@
+@use "./utilities/themes.scss";
+
+.text {
+  font-size: 1.5rem;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+  margin-block: 4rem;
+
+  background: themes.$gray;
+  position: relative;
+}
+
+.text::before {
+  content: "";
+  background: themes.$gray;
+  position: absolute;
+  inset: 0;
+  transform: skewY(5deg);
+  z-index: -1;
+}
+
+.text::after {
+  content: "";
+  background: themes.$gray;
+  position: absolute;
+  inset: 0;
+  transform: skewY(-5deg);
+  z-index: -1;
+}
