@@ -1,22 +1,26 @@
 @use "./../../utilities/themes";
 
 nav {
-  padding: 0.5rem 3rem 0.5rem 0rem;
+  padding: 2rem 3rem 2rem 3rem;
+  position: sticky;
+
   ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     display: flex;
-    align-items: center;
     justify-content: end;
     gap: 3rem;
     font-size: 1.75rem;
+
     li {
       a {
         text-decoration: none;
-        color: themes.$light;
+        color: themes.$muted-purple;
       }
 
       a:hover {
-        color: themes.$gray;
+        color: themes.$purple;
         transition: all 0.3s;
       }
     }

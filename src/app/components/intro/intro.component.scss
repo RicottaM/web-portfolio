@@ -1,0 +1,24 @@
+@use "../../utilities/themes";
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80svh;
+
+  h1 {
+    color: themes.$muted-purple;
+  }
+
+  img {
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .welcome-text {
+    padding: 0rem 2rem 0rem 2rem;
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

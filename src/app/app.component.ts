@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from './components/nav/nav.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HomeContentComponent } from './components/home-content/home-content.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavComponent, HomeContentComponent],
+  imports: [RouterOutlet, NavComponent, IntroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
