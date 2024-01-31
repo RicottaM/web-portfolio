@@ -12,11 +12,11 @@ nav {
     li {
       a {
         text-decoration: none;
-        color: themes.$purple;
+        color: themes.$light;
       }
 
       a:hover {
-        color: themes.$muted-purple;
+        color: themes.$gray;
         transition: all 0.3s;
       }
     }
