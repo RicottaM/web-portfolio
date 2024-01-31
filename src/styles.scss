@@ -8,3 +8,8 @@ body {
   font-family: "Montserrat", system-ui, "Segoe UI", Roboto;
   min-height: 100svh;
 }
+
+::selection {
+  background-color: themes.$muted-purple;
+  color: themes.$gray;
+}
