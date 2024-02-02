@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {
   IconDefinition,
-  faDumbbell,
-  faBeer,
-  faCode,
-  faMusic,
+  faCompactDisc,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -16,8 +13,5 @@ import {
   styleUrl: './about.component.scss',
 })
 export class AboutComponent {
-  dumbbellIcon: IconDefinition = faDumbbell;
-  beerIcon: IconDefinition = faBeer;
-  codeIcon: IconDefinition = faCode;
-  musicIcon: IconDefinition = faMusic;
+  vinylIcon: IconDefinition = faCompactDisc;
 }

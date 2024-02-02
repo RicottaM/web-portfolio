@@ -13,3 +13,7 @@ body {
   background-color: themes.$muted-purple;
   color: themes.$gray;
 }
+
+html {
+  scroll-behavior: smooth;
+}
